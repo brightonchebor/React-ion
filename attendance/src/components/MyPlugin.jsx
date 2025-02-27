@@ -8,8 +8,8 @@ export const MyPlugin = () => {
   return (
     <div id="webcrumbs"> 
     
-        {/* <div className="w-[1024px] max-w-full bg-white rounded-xl shadow-lg p-4 md:p-8"> */}
-        <div className="w-full bg-white rounded-xl shadow-lg p-4 md:p-8">
+        <div className="w-[1024px] max-w-full bg-white rounded-xl shadow-lg p-4 md:p-8">
+        {/* <div className="w-full bg-white rounded-xl shadow-lg p-4 md:p-8"> */}
             {/* <div className="max-w-[1024px] w-full mx-auto bg-white rounded-xl shadow-lg p-4 md:p-8"> */}
     	    <header className="flex flex-col md:flex-row justify-between items-center mb-6 md:mb-8 gap-4">
     	    <h1 className="text-2xl md:text-3xl font-bold">Attendance System</h1>
