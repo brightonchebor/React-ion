@@ -1,8 +1,7 @@
-
-import { Component } from "./components/Component";
+import GeoAttendance from "./components/Component";
 
 function App() {
-  return <MyPlugin />;
+  return <GeoAttendance />;
 }
 
 export default App;

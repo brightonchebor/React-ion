@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './GeoAttendance.css';
+import '../styles/Component.css';
 import { MapContainer, TileLayer, Marker, Circle, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
