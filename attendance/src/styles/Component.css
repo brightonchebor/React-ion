@@ -1,0 +1,194 @@
+/* Global reset or base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+  }
+  
+  /* Container for the entire app */
+  .geoAttendanceContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Top Header Bar */
+  .headerBar {
+    background-color: #5943d0;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .headerTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .joinButton {
+    background-color: #ffffff;
+    color: #5943d0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .joinButton:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Main Content Layout */
+  .mainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Left Panel - Map Section */
+  .mapSection {
+    flex: 2;
+  }
+  
+  .mapCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statusBadge {
+    background-color: #e5f8d3;
+    color: #4caf50;
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  /* If you want to style an inactive status differently, you could do so dynamically in JSX */
+  
+  /* Map Wrapper */
+  .mapWrapper {
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Location info text */
+  .locationInfo {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #555555;
+  }
+  
+  /* Clock In/Out buttons row */
+  .buttonRow {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .clockButton {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+    color: #fff;
+  }
+  
+  .clockIn {
+    background-color: #34a853;
+  }
+  
+  .clockIn:hover {
+    background-color: #2c8e44;
+  }
+  
+  .clockOut {
+    background-color: #ea4335;
+  }
+  
+  .clockOut:hover {
+    background-color: #c6372b;
+  }
+  
+  /* Right Panel - Dashboard Section */
+  .dashboardSection {
+    flex: 1;
+  }
+  
+  .dashboardCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboardCard h3 {
+    margin-bottom: 1rem;
+    color: #333333;
+  }
+  
+  .todayStatus,
+  .recentActivity {
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .statusHeader {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+    color: #444444;
+  }
+  
+  .activityItem {
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .activityItem div:first-child {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  .historyButton {
+    background-color: #ffffff;
+    color: #5943d0;
+    border: 2px solid #5943d0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .historyButton:hover {
+    background-color: #f3f2ff;
+  }
+  
