@@ -2,4 +2,4 @@ function addFun(a){
     return a + 100;
 }
 
-addFun(5)
+console.log(addFun(5))
