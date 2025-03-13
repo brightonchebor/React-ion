@@ -10,4 +10,11 @@ let addFun = a => a + 100;
 let greeting = () => {
     return 'hello world'
 };
-console.log(greeting())
+// console.log(greeting())
+
+let addTwoNums = (x, y) => {
+    let result = x + y;
+    return 'The sum is: ' + result
+};
+
+console.log(addTwoNums(7, 90));
