@@ -12,4 +12,10 @@ let addTwoNums = (x, y) => {
     return 'The sum is: ' + result
 };
 
-console.log(addTwoNums(7, 90));
+// console.log(addTwoNums(7, 90));
+
+const carBrands = ['Volvo', 'Nissan', 'Toyota']
+console.log('Printing Car Brands.....')
+carBrands.forEach((index, element, carBrands) =>
+    console.log(index, element, carBrands)
+)
