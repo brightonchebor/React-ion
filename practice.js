@@ -14,8 +14,20 @@ let addTwoNums = (x, y) => {
 
 // console.log(addTwoNums(7, 90));
 
-const carBrands = ['Volvo', 'Nissan', 'Toyota']
-console.log('Printing Car Brands.....')
-carBrands.forEach((index, element, carBrands) =>
-    console.log(index, element, carBrands)
-)
+// const carBrands = ['Volvo', 'Nissan', 'Toyota']
+// console.log('Printing Car Brands.....')
+// carBrands.forEach((index, element, carBrands) =>
+//     console.log(index, element, carBrands)
+// )
+
+// function that checks which number is bigger
+
+function whichBigger(a, b){
+    if(a > b){
+        return a + ' is bigger than ' + b
+    }
+    else{
+        return b + ' is bigger than ' + a
+    }
+}
+console.log(whichBigger(3, 6))
