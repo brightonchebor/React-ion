@@ -30,4 +30,19 @@ function whichBigger(a, b){
         return b + ' is bigger than ' + a
     }
 }
-console.log(whichBigger(3, 6))
+// console.log(whichBigger(3, 6, 8))
+
+function outerFunc(){
+    let x = 10
+
+    function innerFunc(){
+        let y = 7
+
+        return x + y
+    }
+
+    return innerFunc()
+}
+
+
+console.log(outerFunc())
