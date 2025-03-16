@@ -1,8 +1,8 @@
 // Global Scope
 
-var a = 1
-let b = 2
-const c = 3
+// var a = 1
+// let b = 2
+// const c = 3
 
 function test(){
     // Child Scope
@@ -29,3 +29,17 @@ let global = () => {
 // global()
 
 // Asynchrounous JavaScript
+
+let a = 5
+let b = 6
+
+function addTwoUSer(a,b){
+    return a + b
+}
+
+function displaySum(){
+    sum = addTwoUSer(a,b)
+    console.log('sum is: ', sum)
+}
+
+displaySum()
