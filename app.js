@@ -24,6 +24,8 @@ let global = () => {
     console.log('Another Global Scope', a, b, c)
 }
 
-test()
-console.log('Global Scope', a, b, c)
-global()
+// test()
+// console.log('Global Scope', a, b, c)
+// global()
+
+// Asynchrounous JavaScript
