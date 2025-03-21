@@ -11,7 +11,7 @@ const Card = ({title}) => {
 
 const App = () => {
   return(
-    <div>
+    <div className='card'>
       <h2> Arrow Component</h2>
       < Card title='After We Collided' />
       < Card title='Five Feet Apart' />
