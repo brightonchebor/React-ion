@@ -5,14 +5,16 @@ import './App.css'
 
 const Card = ({title}) => {
   return( 
-    <h2> {title} </h2>
+    <div className='card'>
+      <h2> {title} </h2>
+    </div>
   )
 }
 
 const App = () => {
   return(
-    <div className='card'>
-      <h2> Arrow Component</h2>
+    <div className='card-container'>
+      < Card title='Love, Simon' />
       < Card title='After We Collided' />
       < Card title='Five Feet Apart' />
     </div>
