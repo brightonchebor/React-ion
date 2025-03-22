@@ -2,6 +2,7 @@ import { useState } from "react"
 
 const Card = ({title}) => {
 
+  // useStateb sytanx (it's a hook)
   const [hasLiked, setHasLiked] = useState(false) 
 
   return( 
