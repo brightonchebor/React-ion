@@ -1,11 +1,12 @@
-import { useState, useSyncExternalStore } from "react"
+import { useState } from "react"
 
 const Card = ({title}) => {
 
-  const [hasLiked, setHasLiked] = useState(initialState=false)
+  const [hasLiked, setHasLiked] = useState(false) 
 
   return( 
     <div className='card'>
+
       <h2> {title} </h2>
       <button onClick={() => setHasLiked(true)}>
         Like
@@ -20,10 +21,12 @@ const App = () => {
   
   return(
     <div className='card-container'>
+
       < Card title='After We Collided' />
       < Card title='Love, Simon' />
       < Card title='Five Feet Apart' />
-      < Card title='Twilight' />
+      < Card title='Squid Game' />
+      
     </div>
 
   )
