@@ -23,6 +23,7 @@ const App = () => {
       < Card title='After We Collided' />
       < Card title='Love, Simon' />
       < Card title='Five Feet Apart' />
+      < Card title='Twilight' />
     </div>
 
   )
