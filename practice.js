@@ -54,6 +54,7 @@ cart = ['shoes', 'jewelery', 'phones']
 // api.createOrder()
 // api.makePayment()
 // api.showOrderSummary()
+// api.updateWallet()
 
 api.createOrder(cart,
     api.makePayment()
