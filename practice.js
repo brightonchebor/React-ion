@@ -49,3 +49,17 @@ function outerFunc(){
 
 // Callback
 
+cart = ['shoes', 'jewelery', 'phones']
+
+// api.createOrder()
+// api.makePayment()
+// api.showOrderSummary()
+
+api.createOrder(cart,
+    api.makePayment()
+)
+
+function () {
+    api.makePayment()
+}
+
