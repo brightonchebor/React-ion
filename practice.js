@@ -45,4 +45,7 @@ function outerFunc(){
 }
 
 
-console.log(outerFunc())
+// console.log(outerFunc())
+
+// Callback
+
