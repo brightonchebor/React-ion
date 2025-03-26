@@ -56,11 +56,21 @@ cart = ['shoes', 'jewelery', 'phones']
 // api.showOrderSummary()
 // api.updateWallet()
 
+
+// callback hell and pyramid
 api.createOrder(cart,
-    api.makePayment()
+    function () {
+        api.makePayment(
+            function () {
+                api.showOrderSummary(
+                    function () {
+                        api.updateWallet()
+                    }
+                )
+            }
+        )
+    }
+    
 )
 
-// function () {
-//     api.makePayment()
-// }
 
