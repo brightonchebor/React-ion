@@ -29,6 +29,11 @@
         setTimeout(displayResult2, 10000)
         setTimeout(displayResult1, 5000)
 
+        // passing entire function inside a timeout
+        setTimeout(function() {
+            document.getElementById('input').innerHTML = 'Hey You!'
+        })
+
     </script>
 </body>
 </html>
