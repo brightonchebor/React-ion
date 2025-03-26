@@ -60,7 +60,7 @@ api.createOrder(cart,
     api.makePayment()
 )
 
-function () {
-    api.makePayment()
-}
+// function () {
+//     api.makePayment()
+// }
 

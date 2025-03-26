@@ -20,27 +20,22 @@
         </form>
         
         <script>
-            let calcBtn = document.querySelector('#calculate');
-
+            let calcBtn = document.getElementById('calculate');
             calcBtn.addEventListener('click',(e)=>{
-                e.preventDefault();//to prevent the form to submit
-
-                let a = parseInt(document.querySelector('#first').value);
-                let b = parseInt(document.querySelector('#second').value);
-
-                function printThis(theSum){
-                    document.getElementById("output").innerHTML = theSum;
-                }
-
-                function calculateTwo(a, b) {
-                    let sum = a + b;
-                    return sum;
-                }
-
-                let result = calculateTwo(a, b);
-                printThis(result);
+            e.preventDefault();
+            let a = parseInt(document.getElementById('first').value);
+            let b = parseInt(document.getElementById('second').value);
+            function printThis(theSum) {
+            document.getElementById("output").innerHTML = theSum;
+            }
+            function calculateTwo(a, b, theCallback) {
+            let result = a + b;
+            theCallback(result);
+            }
+            calculateTwo(a, b, printThis);
             });
-        </script>
+            </script>
+            
     </body>
 </html>
 
