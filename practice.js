@@ -57,7 +57,7 @@ cart = ['shoes', 'jewelery', 'phones']
 // api.updateWallet()
 
 
-// callback hell and pyramid
+// callback hell and pyramid because the functions are nested inside one another
 api.createOrder(cart,
     function () {
         api.makePayment(
