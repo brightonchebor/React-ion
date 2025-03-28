@@ -33,7 +33,7 @@ api.makePayment(orderId)
 api.showOrderSummary(paymentInfo)
 api.updateWallet(paymentInfo)
 
-
+// promise chaining helping us to get out of callbck hell
 createOrder(cart)
     .then(orderId => makePayment(orderId))
     .then(paymentInfo => showOrderSummary(paymentInfo))
