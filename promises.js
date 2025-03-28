@@ -27,3 +27,15 @@ console.log(user)
 user.then(function (data) {
     console.log(data)
 })
+
+api.createOrder(cart)
+api.makePayment(orderId)
+api.showOrderSummary(paymentInfo)
+api.updateWallet(paymentInfo)
+
+
+createOrder(cart)
+    .then(orderId => makePayment(orderId))
+    .then(paymentInfo => showOrderSummary(paymentInfo))
+    .then(paymentInfo => updateWallet(paymentInfo))
+    

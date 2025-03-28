@@ -57,7 +57,9 @@ cart = ['shoes', 'jewelery', 'phones']
 // api.updateWallet()
 
 
-// callback hell and pyramid because the functions are nested inside one another
+// callback hell and pyramid of doom because the functions are nested inside one another
+// we can overcpme this by using promises
+// showing how to solve in promises.js
 api.createOrder(cart,
     function () {
         api.makePayment(
