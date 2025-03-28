@@ -24,20 +24,16 @@ const Card = ({title}) => {
 }
 
 const Counter = () => {
-  const [count, setCount] = useState();
+  const [count, setCount] = useState(0);
 
-  const increament = () => {
-    count + 1;
-  }
-  const decreament = () => {
-    count - 1;
-  }
+  const increament = () => setCount(count + 1);
+  const decreament = () => setCount(count - 1);
 
   return(
-    <div>
-      <p>{count}</p>
-      <button onClick={increament}>Increament</button>
-      <button onClick={decreament}>Decreament</button>
+    <div className="card">
+      <h2>My count:{count}</h2>
+      <button onClick={increament}>+</button>
+      <button onClick={decreament}>-</button>
     </div>
   )
 

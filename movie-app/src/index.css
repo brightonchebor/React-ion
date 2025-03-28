@@ -35,6 +35,10 @@ h2 {
     min-height: 100px;
 }
 
+.counter{
+    color: white;
+}
+
 button {
     border: none;
     font-size: 30px;
