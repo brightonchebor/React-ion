@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react"
 
 const Card = ({title}) => {
 
@@ -23,6 +23,29 @@ const Card = ({title}) => {
   )
 }
 
+const Counter = () => {
+  const [count, setCount] = useState();
+
+  const increament = () => {
+    count + 1;
+  }
+  const decreament = () => {
+    count - 1;
+  }
+
+  return(
+    <div>
+      <p>{count}</p>
+      <button onClick={increament}>Increament</button>
+      <button onClick={decreament}>Decreament</button>
+    </div>
+  )
+
+
+}
+
+
+
 const App = () => {
 
   
@@ -33,6 +56,8 @@ const App = () => {
       < Card title='Love, Simon' />
       < Card title='Five Feet Apart' />
       < Card title='Squid Game' />
+
+      <Counter />
       
     </div>
 
