@@ -32,8 +32,8 @@ const Counter = () => {
   return(
     <div className="card">
       <h2>My count:{count}</h2>
-      <button onClick={increament} style={color:'white'}>+</button>
-      <button onClick={decreament}>-</button>
+      <button onClick={increament} style={{color:'white'}}>+</button>
+      <button onClick={decreament} style={{color:'white'}}>-</button>
     </div>
   )
 
