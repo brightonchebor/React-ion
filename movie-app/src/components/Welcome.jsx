@@ -1,8 +1,10 @@
 import Header from "./Header";
 import Login from "./Login";
 
+// conditional renedering with the element variables
 const Welcome = ({logedIn}) => {
     let header;
+
     if (logedIn) {
         header = <Header />
     } else{
@@ -16,3 +18,11 @@ const Welcome = ({logedIn}) => {
 }
 
 export default Welcome
+
+const Karibu = ({loggedIn}) => {
+    return(
+        <div>
+            {loggedIn ? <Header /> : <login />}
+        </div>
+    );
+}
