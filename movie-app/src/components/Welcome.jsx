@@ -19,6 +19,8 @@ const Welcome = ({logedIn}) => {
 
 export default Welcome
 
+
+// constional rendering with the conditional operator
 const Karibu = ({loggedIn}) => {
     return(
         <div>
@@ -26,3 +28,4 @@ const Karibu = ({loggedIn}) => {
         </div>
     );
 }
+

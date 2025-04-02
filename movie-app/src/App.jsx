@@ -28,7 +28,7 @@ const App = () => {
       </div> */}
 
       <div>
-        <Tailwind />
+        <Tailwind name='Chebor'/>
       </div>
     </>
   )
