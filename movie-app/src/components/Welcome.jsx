@@ -1,3 +1,5 @@
+import Header from "./Header";
+import Login from "./Login";
 
 const Welcome = ({logedIn}) => {
     let header;
