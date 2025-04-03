@@ -90,7 +90,7 @@ let logName = (lang1) => console.log(this.fname + this.lname + lang1);
 
 let author = {
     fname: "Brighton",
-    lname: "Chebor"
+    lname: "Chebor",
 }
 
 let language = 'JavaScript';
