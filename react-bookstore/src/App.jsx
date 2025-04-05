@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Footer from "./components/Footer";
+import Header from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <h1>welcome to React Bookstore</h1>
       <p>
         We have several books. Feel free to browse for as long as you like.

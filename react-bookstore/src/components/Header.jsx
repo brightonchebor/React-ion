@@ -11,8 +11,8 @@ const Header = () => {
     };
 
     return(
-        <div style={headerStyle}>
-            <p>
+        <div >
+            <p style={headerStyle}>
                 This is header
             </p>
         </div>
