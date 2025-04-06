@@ -10,8 +10,9 @@ const Header = () => {
     background: "black",
     color: 'white',
     left: '0',
-    
   };
+
+  
 
   return (
     <header style={headerStyle}>
