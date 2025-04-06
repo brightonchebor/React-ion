@@ -1,13 +1,13 @@
-const ProductList = ({title}, {author}, {year}, {lang}, {pages}, {price}) => {
+const ProductList = ({title, author, year, lang, pages, price}) => {
 
     return(
         <div>
             <img src="" alt="Image of a book" />
-            <br />
-            <h3>Title:{title}</h3>
-            <br />
+            <h3>Title: {title}</h3>
             <p>Published: {year}</p>
-
+            <p>language: {lang}</p>
+            <p>Pages: {pages}</p>
+            <p>Price: Kes {price}</p>
         </div>
     );
 }
