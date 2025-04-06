@@ -9,6 +9,7 @@ const Footer = () => {
         left: '0',
         bottom: '0',
         width: '100%',
+        margin: '0',
         };
     return(
         <div>
