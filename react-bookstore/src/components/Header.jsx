@@ -12,7 +12,7 @@ const Header = () => {
 
     return(
         <div >
-            <p style={headerStyle}>
+            <p >
                 This is header
             </p>
         </div>
