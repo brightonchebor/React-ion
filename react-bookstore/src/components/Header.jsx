@@ -1,13 +1,16 @@
 const Header = () => {
-    
+
   const headerStyle = {
-    position: "absolute",
+    position: "fixed",
     top: 0,
     width: "100%",
     textAlign: "center",
     fontSize: "1rem",
-    padding: "0.5rem",
-    background: "#f9f9f9",
+    padding: "10px",
+    background: "black",
+    color: 'white',
+    left: '0',
+    
   };
 
   return (
