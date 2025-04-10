@@ -21,6 +21,7 @@ const App = () => {
       
     // </div>
 
+    
     <>
       {/* <Navbar />
       <div className="h-screen  bg-[url('/src/assets/mountain.jpg')] bg-cover bg-center before:absolute before:inset-0 before:bg-slate-900 before:opacity-50">
