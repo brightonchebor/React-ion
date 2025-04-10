@@ -1,14 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import User from './components/User';
+import Password from './components/Password';
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Password isValid={true}/>
     </div>
   )
 }
