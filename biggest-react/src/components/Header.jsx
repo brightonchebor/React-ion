@@ -20,7 +20,8 @@ const Header = () => {
           padding: "5px",
           left: "0",
           marginBottom: "1rem",
-          padding: "20px",
+          padding: "20px"
+          
         }}
       >
         Welcome to React Bookstore

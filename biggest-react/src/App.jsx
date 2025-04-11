@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <card />
+      <Card />
       <Footer />
     </div>
   )
