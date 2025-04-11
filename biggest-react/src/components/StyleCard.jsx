@@ -8,6 +8,7 @@ function StyleCard() {
         color: 'white',
         padding: "10px",
         borderRadius: '10px',
+        
 
         // backgroundColor: "lightblue",
         // padding: "20px",
