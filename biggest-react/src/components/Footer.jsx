@@ -25,7 +25,7 @@ const Footer = () => {
           padding: "20px",
         }}
       >
-        Welcome to React Bookstore
+        This is a footer
       </h2>
     </header>
   );
