@@ -1,11 +1,14 @@
 const Header = () => {
 
   const headerStyle = {
+    position: 'fixed',
+    width: '100%',
     top: 0,
     textAlign: "center",
     fontSize: "1rem",
     padding: "0px",
     color: 'white',
+    
     
   };
 
@@ -21,7 +24,7 @@ const Header = () => {
           left: "0",
           marginBottom: "1rem",
           padding: "20px"
-          
+
         }}
       >
         Welcome to React Bookstore

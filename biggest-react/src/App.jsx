@@ -11,6 +11,10 @@ const App = () => {
   return (
     <div>
       <Header />
+      {/* <StyleCard />
+      <StyleCard />
+      <StyleCard /> */}
+
       <CardList />
       <Footer />
     </div>

@@ -16,6 +16,8 @@ const cardContainerStyle = {
     justifyContent: 'center',
     flexWrap: 'wrap', // allows wrap on smaller screens
     padding: '10px',
+    paddingBottom: '70px',
+    paddingTop: '100px',
   };
 
 
