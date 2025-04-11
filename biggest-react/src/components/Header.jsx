@@ -1,3 +1,4 @@
+import IconCOmponent from "./IconCOmponent";
 const Header = () => {
 
   const headerStyle = {
@@ -8,14 +9,19 @@ const Header = () => {
     fontSize: "1rem",
     padding: "0px",
     color: 'white',
+    // display: 'flex',
+    // alignItems: 'center',
+    // justifyContent: 'center', // you can change to 'flex-start' if you want left-aligned
+    // gap: '10px', // spacing between icon and text
+  
     
     
   };
 
-  
 
   return (
     <header style={headerStyle}>
+      
       <h2
         style={{
           margin: 0,
