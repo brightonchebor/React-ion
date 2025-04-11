@@ -18,11 +18,11 @@ const Footer = () => {
         style={{
           margin: 0,
           backgroundColor: "black",
-          padding: "5px",
+          padding: "20px",
           left: "0",
           marginTop: "1rem",
           marginBottom: '0',
-          padding: "20px",
+          
         }}
       >
         This is a footer

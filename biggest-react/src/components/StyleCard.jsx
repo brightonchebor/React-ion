@@ -6,7 +6,7 @@ function StyleCard() {
       style={{
         backgroundColor: 'maroon',
         color: 'white',
-        padding: "10px",
+        padding: "30px",
         borderRadius: '10px',
         marginLeft: '2rem',
         marginRight: '2rem'
