@@ -5,17 +5,20 @@ import StyleCard from './components/StyleCard';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CardList from './components/CardList';
+import ProfileCard from './components/ProfileCard';
 import './App.css';
 
 const App = () => {
   return (
     <div>
       <Header />
+      <br />
+      <br />
       {/* <StyleCard />
       <StyleCard />
       <StyleCard /> */}
 
-      <CardList />
+      <ProfileCard />
       <Footer />
     </div>
   )
