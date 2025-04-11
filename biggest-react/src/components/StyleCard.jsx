@@ -6,8 +6,8 @@ function StyleCard() {
       style={{
         backgroundColor: 'maroon',
         color: 'white',
-        padding: "25px",
-        borderRadius: '20px',
+        padding: "10px",
+        borderRadius: '10px',
 
         // backgroundColor: "lightblue",
         // padding: "20px",
@@ -15,9 +15,10 @@ function StyleCard() {
         // color: "darkblue",
       }}
     >
-      <h2 style={{ fontSize: "3rem", marginBottom: "2rem" }}>Hello World</h2>
-      <p>
+      <h2 style={{ fontSize: "2rem", marginBottom: "2rem", backgroundColor: 'maroon' }}>Hello World</h2>
+      <p style={{fontSize: "1rem", backgroundColor: 'maroon'}}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur esse blanditiis consectetur eius neque iusto provident cum ullam dolores id, magnam doloremque fugiat nisi natus officia magni maxime dolor!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus labore dolorum, cum, aliquam numquam amet nisi ut minima aliquid quo, voluptas explicabo nulla et. Quasi voluptates doloribus fugit sed aut?
       </p>
     </div>
   );
