@@ -4,21 +4,14 @@ import React from 'react';
 import StyleCard from './components/StyleCard';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Card from './components/Card';
 import './App.css';
 
 const App = () => {
   return (
     <div>
       <Header />
-      <StyleCard />
-      <br />
-      <StyleCard />
-      <br />
-      <StyleCard />
-      <br />
-      <StyleCard />
-      <br />
-      <StyleCard />
+      <card />
       <Footer />
     </div>
   )

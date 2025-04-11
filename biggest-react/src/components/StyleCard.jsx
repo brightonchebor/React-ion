@@ -9,7 +9,8 @@ function StyleCard() {
         padding: "30px",
         borderRadius: '10px',
         marginLeft: '2rem',
-        marginRight: '2rem'
+        marginRight: '2rem',
+        marginBottom: '2rem'
 
         // backgroundColor: "lightblue",
         // padding: "20px",

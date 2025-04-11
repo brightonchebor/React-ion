@@ -3,7 +3,7 @@ import React from 'react'
 function Card() {
 
     const cardStyle = {
-
+        
     };
 
     const h1Style = {
