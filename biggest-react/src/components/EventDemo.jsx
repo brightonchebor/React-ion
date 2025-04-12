@@ -14,6 +14,16 @@ const EventDemo = () => {
     const handleCopy = () => {
         setCopy('Text Copied')
     }
+
+    const [hover, setHover] = useState('Hover over me!')
+    const handleHover = () => {
+        setHover({backgroundColor: 'lightyellow'})
+    }
+    const handleHoverOut = () => {
+        setHover({})
+    }
+
+    
     return (
         <div>
 
@@ -23,7 +33,7 @@ const EventDemo = () => {
             </div>
 
             <div>
-                <p onClick={handleCopy}>{copy}</p>
+                <p onCopy={handleCopy}>{copy}</p>
             </div>
 
         </div>
