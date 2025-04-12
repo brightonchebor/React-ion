@@ -7,19 +7,22 @@ import Footer from './components/Footer';
 import CardList from './components/CardList';
 import ProfileCard from './components/ProfileCard';
 import IconCOmponent from './components/IconCOmponent';
+import EventDemo from './components/EventDemo';
 import './App.css';
 
 const App = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
     
       {/* <StyleCard />
       <StyleCard />
       <StyleCard /> */}
 
-      <ProfileCard />
-      <Footer />
+      {/* <ProfileCard /> */}
+      {/* <Footer /> */}
+
+      <EventDemo />
     </div>
   )
 }
