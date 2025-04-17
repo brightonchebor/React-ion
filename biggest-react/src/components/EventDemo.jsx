@@ -35,8 +35,8 @@ const EventDemo = () => {
       <div>
         <p
           onMouseOver={handleHover}
-          onMouseOut={handleMouseOut}
-          style={hoverStyle}
+          onMouseOut={handleHoverOut}
+          // style={hoverStyle}
         >
           Hover over me!
         </p>
