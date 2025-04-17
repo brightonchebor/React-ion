@@ -21,7 +21,7 @@ const App = () => {
 
       {/* <ProfileCard /> */}
       {/* <Footer /> */}
-
+      <h1>React event handling challenge</h1>
       <EventDemo />
     </div>
   )

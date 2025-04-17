@@ -3,10 +3,21 @@ import { useState } from "react";
 import { GiButtonFinger } from "react-icons/gi";
 
 const EventDemo = () => {
-  const [button, setButton] = useState("Click Me!");
-  const handleButton = () => {
-    setButton("Button Clicked");
-  };
+  // const [button, setButton] = useState("Click Me!");
+  // const handleButton = () => {
+  //   setButton("Button Clicked");
+  // };
+
+  const Button = () => {
+    const handleClick = () => {
+      console.log(Math.round(Math.random() * 10));
+    }
+    return (
+      <button onClick={handleClick}>
+        Click Me
+      </button>
+    )
+  }
 
   const [copy, setCopy] = useState("Copy Me!");
   const handleCopy = () => {
@@ -24,8 +35,10 @@ const EventDemo = () => {
   return (
     <div>
       <div>
-        <button onClick={handleButton}>{button}</button>
-        <p></p>
+        {/* <button onClick={handleButton}>{button}</button>
+        <p></p> */}
+
+        <Button />
       </div>
 
       <div>
