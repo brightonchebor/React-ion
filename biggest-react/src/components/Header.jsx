@@ -7,7 +7,7 @@ const Header = () => {
     top: 0,
     textAlign: "center",
     fontSize: "1rem",
-    padding: "0px",
+    // padding: "0px",
     color: 'white',
     // display: 'flex',
     // alignItems: 'center',

@@ -16,16 +16,16 @@ const Counter = () => {
   const buttonStyle = {
     padding: '10px',
     fontSize: '1rem',
-    color: 'black'
+    color: 'black',
   }
 
   return (
     <div>
       <p>My Count: {count}</p>
-      <button onClick={increament}>
+      <button onClick={increament} style={buttonStyle}>
         Increament
-      </button>
-      <button onClick={decreament}>
+      </button >
+      <button onClick={decreament} style={buttonStyle}>
         Decreament
       </button>
     </div>
