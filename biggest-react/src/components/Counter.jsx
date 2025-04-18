@@ -13,6 +13,12 @@ const Counter = () => {
     prevCount => prevCount - 1
   )
 
+  const buttonStyle = {
+    padding: '10px',
+    fontSize: '1rem',
+    color: 'black'
+  }
+
   return (
     <div>
       <p>My Count: {count}</p>
