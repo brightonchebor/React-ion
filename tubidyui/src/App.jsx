@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection';
+import TrendingVedios from './components/TrendingVedios';
 import './App.css';
 import React, { useState } from 'react';
 
