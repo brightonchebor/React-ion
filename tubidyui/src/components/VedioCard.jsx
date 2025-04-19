@@ -1,11 +1,11 @@
 import React from 'react'
 import './styles/VedioCard.css'
-
+import music from '../assets/music.jpg'
 const VedioCard = ({video}) => {
   return (
     <div className='video-card'>
         <div className='thumbnail-container'>
-            <img src={video.thumbnail} alt={video.title} className='thumbnail' />
+            <img src={music} alt={video.title} className='thumbnail' />
             <div className='duration'> {video.duration} </div>
             {video.platform && <div className='platform'>{video.platfrom}</div> }
         </div>
