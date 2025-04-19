@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import TrendingVedios from './components/TrendingVedios';
 import './App.css';
 import React, { useState } from 'react';
+import { videos } from './data/VedioData'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <div className='app'>
       <Navbar />
       <HeroSection onSearch={handleSearch} />
+      <TrendingVedios videos={videos} />
     </div>
   )
 }
