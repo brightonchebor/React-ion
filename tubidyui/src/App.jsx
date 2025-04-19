@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection';
 import TrendingVedios from './components/TrendingVedios';
+import Footer from './components/Footer';
 import './App.css';
 import React, { useState } from 'react';
 import { videos } from './data/VedioData'
@@ -21,6 +22,7 @@ function App() {
       <Navbar />
       <HeroSection onSearch={handleSearch} />
       <TrendingVedios videos={videos} />
+      <Footer />
     </div>
   )
 }
