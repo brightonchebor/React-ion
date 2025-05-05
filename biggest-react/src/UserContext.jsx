@@ -3,7 +3,7 @@ import { useState, createContext } from 'react'
 const UserContext = createContext()
 
 
-const UserProvider = () => {
+const UserProvider = ({children}) => {
 
     const [user, setUser] = useState({name: 'John Doe'})
 
