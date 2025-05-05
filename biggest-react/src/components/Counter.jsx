@@ -5,13 +5,13 @@ const Counter = () => {
 
   const [count, setCount] = useState(0)
   
-  const increament = setCount(
-    prevCount => prevCount + 1
-  )
+  const increment = () => {
+    setCount(prevCount => prevCount + 1)
+  }
 
-  const decreament = setCount(
-    prevCount => prevCount - 1
-  )
+  const decrement = () => {
+    setCount(prevCount => prevCount - 1)
+  }
 
   const buttonStyle = {
     padding: '10px',
@@ -22,10 +22,10 @@ const Counter = () => {
   return (
     <div>
       <p>My Count: {count}</p>
-      <button onClick={increament} style={buttonStyle}>
+      <button onClick={increment} style={buttonStyle}>
         Increament
       </button >
-      <button onClick={decreament} style={buttonStyle}>
+      <button onClick={decrement} style={buttonStyle}>
         Decreament
       </button>
     </div>

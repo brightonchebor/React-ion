@@ -6,7 +6,7 @@ import Header from './components/Header';
 const App = () => {
   return (
     <div>
-    <Header />
+    <Header /> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
     <Counter />
       
     </div>
