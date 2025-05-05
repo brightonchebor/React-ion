@@ -1,20 +1,22 @@
+import { useState, createContext } from 'react'
 
+const UserContext = createContext()
 
-const UserContext = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default UserContext
 
 const UserProvider = () => {
+
+    const [user, setUser] = useState({name: 'John Doe'})
+
+    const updateUser = (newName) => {
+        setUser({name: newName});
+    }
     return (
-        <div>
-      
-        </div>
-    )
+      <div>
+        <UserContext.Provider value={{ user, updateUser }}>
+          {children}
+        </UserContext.Provider>
+      </div>
+    );
 }
 
+export {UserContext, UserProvider}
