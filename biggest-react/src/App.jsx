@@ -13,10 +13,10 @@ const App = () => {
     <Counter />
        */}
 
-      <UserProvider>
+      {/* <UserProvider>
         <UserProfile />
         <UpdateUser />
-      </UserProvider>
+      </UserProvider> */}
       
     </div>
   );

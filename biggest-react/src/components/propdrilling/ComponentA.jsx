@@ -1,9 +1,10 @@
 import React from 'react'
+import ComponentB from './ComponentB'
 
-const ComponentA = () => {
+const ComponentA = ({name}) => {
   return (
     <div>
-      
+      <ComponentB name={name} />
     </div>
   )
 }
