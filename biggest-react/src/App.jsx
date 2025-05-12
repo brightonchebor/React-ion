@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-
+import UserProfile from "./components/context/UserProfile";
+import UpdateUser from "./components/context/UpdateUser";
 
 const App = () => {
   
@@ -9,10 +10,10 @@ const App = () => {
     <div>
       
 
-      {/* <UserProvider>
+      <UserProvider>
         <UserProfile />
         <UpdateUser />
-      </UserProvider> */}
+      </UserProvider> 
 
       
       
