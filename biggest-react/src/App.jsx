@@ -1,12 +1,9 @@
 import React from "react";
 import "./App.css";
 
-import ComponentA from "./components/propdrilling/ComponentA";
-
 
 const App = () => {
   
-  const name = 'Bright'
 
   return (
     <div>
@@ -17,7 +14,7 @@ const App = () => {
         <UpdateUser />
       </UserProvider> */}
 
-      <ComponentA name={name} />
+      
       
     </div>
   );
