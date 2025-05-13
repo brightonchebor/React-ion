@@ -1,23 +1,24 @@
 import React from 'react'
 import { useState } from 'react'
+import "./Styles.css";
 
 const Counter = () => {
 
     const [count, setCount] = useState(0)
 
-    const increament = () => {
+    const increment = () => {
         setCount(prevCount => prevCount + 1)
     }
 
-    const decreament = () => {
+    const decrement = () => {
         setCount(prevCount => prevCount - 1)
     }
 
     return (
         <div>
             <p>{count}</p>
-            <button onClick={increament}>+</button>
-            <button onClick={decreament}>-</button>
+            <button onClick={increment}>+</button>
+            <button onClick={decrement}>-</button>
         </div>
     )
 }
