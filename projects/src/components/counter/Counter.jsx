@@ -15,12 +15,21 @@ const Counter = () => {
     }
 
     return (
-        <div>
-            <p>{count}</p>
-            <button onClick={increment}>+</button>
-            <button onClick={decrement}>-</button>
+      <>
+        <div className="container">
+          <h1 className="number">{count}</h1>
         </div>
-    )
+
+        <section className="btns-container">
+          <button onClick={increment} className="increment">
+            +
+          </button>
+          <button onClick={decrement} className="increment">
+            -
+          </button>
+        </section>
+      </>
+    );
 }
 
 export default Counter
