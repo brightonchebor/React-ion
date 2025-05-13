@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './style.css'
 
-const generateId = () => math.floor(math.random() * 10)
+const generateId = () => Math.floor(Math.random() * 10)
     
 
 const Todo = () => {
@@ -12,7 +12,7 @@ const Todo = () => {
     const handleSubmit = () => {
         setTodos((todos) =>
         todos.concat({
-            name: input,
+            text: input,
             id: generateId()
         }));
         setInput('');
