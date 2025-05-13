@@ -1,11 +1,11 @@
 import './App.css'
-import Todo from './components/todo/Todo'
+import Main from './components/calculator/Main'
 
 function App() {
   
 
   return (
-    <Todo/>
+    <Main />
     
   )
 }
