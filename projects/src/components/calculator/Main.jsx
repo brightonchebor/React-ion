@@ -17,6 +17,7 @@ function Main() {
     setinputvalue("");
   }
 
+  
   return (
     <form class="calculator" name="calc">
       <input type="text" class="value" value={inputvalue} />
