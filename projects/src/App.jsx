@@ -1,5 +1,5 @@
 import './App.css'
-import Main from './components/mealsapi/Main'
+import Main from './components/colortoggle/Main'
 
 function App() {
   
