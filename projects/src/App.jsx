@@ -1,5 +1,5 @@
 import './App.css'
-import Main from './components/calculator/Main'
+import Main from './components/mealsapi/Main'
 
 function App() {
   
