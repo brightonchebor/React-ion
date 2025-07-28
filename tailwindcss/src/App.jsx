@@ -1,14 +1,16 @@
-import React from 'react'
-
+import Footer from "./components/Footer"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
-    <div className='bg-red-500 p-20'>
-      <h1 className='font-bold text-white text-5xl'>
-        Hello World
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </>
   )
 }
+
 
 export default App
